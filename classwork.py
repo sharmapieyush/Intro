@@ -22,6 +22,10 @@ a=int(input("Enter the age of a"))
 b=int(input("Enter the age of b"))
 c=int(input("Enter the age of c"))
 
+a=int(input("Enter the age of a"))
+b=int(input("Enter the age of b"))
+c=int(input("Enter the age of c"))
+
 if(a<b):
     if(a<c):
         print("a is the youngest")
@@ -31,16 +35,18 @@ if(a<b):
         print(b)
     else:
         print("c is youngest")
+        print(c)
 
 
 
-    if(a>c):
-        if(a>b):
+if(a>c):
+    if(a>b):
          print("a is the eldest")
          print(a)
     elif(b>c):
         print("b is the eldest")
-    else:
+        print(b)
+else:
         print("c is the eldest")
         print(c)
 
