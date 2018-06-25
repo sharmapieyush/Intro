@@ -2,7 +2,7 @@
 Int=[]
 for i in range (0,10):
     Int.append(int(input("Enter the integer")))
-    print(Int)
+print(Int)
 
 #Question2
 while True:
