@@ -43,7 +43,7 @@ class Mission(Cop):
 c=Cop('Ethan Hunt',30,'IMF Agent',20,'The best Agent of IMF')
 m=Mission('Ethan Hunt',30,'IMF Agent',20,'The Best Agent of IMF')
 m.display()
-m.update('William Brandt',29,'IMF Analyst',20,'The second best IMF of Agent')
+m.update('William Brandt',29,'IMF Analyst',20,'The second best Agent of IMF')
 
 #Question4
 class Shape():
